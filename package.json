@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.8",
+    "express": "^5.1.0",
+    "papaparse": "^5.5.2"
+  },
+  "name": "finance-analysis-tool",
+  "version": "1.0.0",
+  "description": "My Finance Analysis Tool supports finance data analysis for individual person.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77Jonas77/finance-analysis-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/77Jonas77/finance-analysis-tool/issues"
+  },
+  "homepage": "https://github.com/77Jonas77/finance-analysis-tool#readme"
+}
