@@ -9,4 +9,11 @@ app.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-app.get("/", home);
+app.get("/", (req, res) => {
+  try {
+    home(req, res);
+  } catch (err) {
+    console.error("Error rendering home page:", err);
+    res.status(500).send("Error rendering the home page.");
+  }
+});
