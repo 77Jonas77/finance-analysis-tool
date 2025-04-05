@@ -97,3 +97,7 @@ main {
     padding: 10px;
     box-sizing: border-box;
 }
+
+.input-file-btn:hover {
+    background-color: rgb(64, 64, 254);
+}
