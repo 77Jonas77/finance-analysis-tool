@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/index.css" />
-    <!-- <script src="./"></script> -->
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="/js/index-file-upload.js"></script>
     <title>Finance Analysis App</title>
   </head>
   <body>
@@ -14,7 +14,7 @@
           <img
             class="navbar-logo"
             id="navbar-logo"
-            src="../assets/finance-analyser-logo.png"
+            src="/img/finance-analyser-logo.png"
           />
           Finance Analyser</a
         >
@@ -25,12 +25,13 @@
         <img
           class="import-file-img"
           id="import-file-img"
-          src="../assets/finance-analyser-import.png"
+          src="/img/finance-analyser-import.png"
         />
         <h2 class="import-file-title">Analyze your finance</h2>
-        <label for="files" class="input-file-btn">Select file</label>
+        <label for="uploadFile" class="input-file-btn">Select file</label>
         <input
-          id="files"
+          id="uploadFile"
+          name="uploadFile"
           class="input-file"
           style="display: none"
           type="file"
