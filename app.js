@@ -1,5 +1,5 @@
 const express = require("express");
-const home = require("./pages/home");
+const home = require("./pages");
 
 const app = express();
 const hostname = "localhost";

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <!-- <script src="./"></script> -->
+    <title>Finance Analysis App</title>
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-logo-div">
+        <a id="logo-title-navbar" href="index.html">
+          <img
+            class="navbar-logo"
+            id="navbar-logo"
+            src="../assets/finance-analyser-logo.png"
+          />
+          Finance Analyser</a
+        >
+      </div>
+    </nav>
+    <main class="main-content">
+      <div id="import-file-div" class="import-file-div">
+        <img
+          class="import-file-img"
+          id="import-file-img"
+          src="../assets/finance-analyser-import.png"
+        />
+        <h2 class="import-file-title">Analyze your finance</h2>
+        <label for="files" class="input-file-btn">Select file</label>
+        <input
+          id="files"
+          class="input-file"
+          style="display: none"
+          type="file"
+          accept=".csv"
+        />
+        <div id="import-description" class="import-description" accept=".csv">
+          <p>
+            Files remain private. We process files on your device. We do not
+            send your files to our servers and do not store them.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
